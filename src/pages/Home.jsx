@@ -47,8 +47,8 @@ function Home() {
     <div className="bg-orange-500 w-full min-h-screen">
     <Nav />
     {!input ? (
-                <div className="flex flex-wrap justify-center items-center gap-6 w-[80%] m-19">
-            {Categories.map((item) => {
+               <div className="flex flex-wrap justify-center items-center gap-6 w-[90%] md:w-[80%] mx-auto md:mt-10">
+                   {Categories.map((item) => {
                 return (
                     <div
                         key={item.name} // Key for each category
