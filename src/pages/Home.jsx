@@ -47,7 +47,7 @@ function Home() {
     <div className="bg-orange-500 w-full min-h-screen">
     <Nav />
     {!input ? (
-                <div className="flex flex-wrap justify-center items-center gap-6 w-[80%] m-">
+                <div className="flex flex-wrap justify-center items-center gap-6 w-[80%] m-19">
             {Categories.map((item) => {
                 return (
                     <div
